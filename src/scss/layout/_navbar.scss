@@ -3,7 +3,7 @@ ul {
     justify-content: space-around;
     flex-wrap: wrap;
 
-    @media (max-width: 785px) {
+    @media (max-width: 500px) {
         margin-bottom: 1.5625rem;
         flex-direction: column;
         align-items: center;
@@ -18,7 +18,7 @@ ul {
         color: aliceblue;
         border: 1px solid salmon;
         
-        @media (max-width: 785px) {
+        @media (max-width: 500px) {
         margin-bottom: 1.5625rem;
         flex-direction: column;
         gap: 1.5625rem;
@@ -28,7 +28,7 @@ ul {
     .div--li__dos > *:not(:first-child) {
         margin-left: 1.25rem;
 
-        @media (max-width: 785px) {
+        @media (max-width: 500px) {
         margin-left: 0;
         }
     }

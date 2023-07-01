@@ -1,5 +1,67 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap";
 body {
-  background-color: gray;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+@media (width <= 785px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5625rem;
+  }
+}
+
+ul div {
+  color: #f0f8ff;
+  border: 1px solid salmon;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .625rem;
+  display: flex;
+}
+
+@media (width <= 785px) {
+  ul div {
+    flex-direction: column;
+    gap: 1.5625rem;
+    margin-bottom: 1.5625rem;
+  }
+}
+
+ul .div--li__dos > :not(:first-child) {
+  margin-left: 1.25rem;
+}
+
+@media (width <= 785px) {
+  ul .div--li__dos > :not(:first-child) {
+    margin-left: 0;
+  }
+}
+
+ul .font--weight {
+  color: #8e2de2;
+  font-weight: 700;
+}
+
+li {
+  border: 1px solid salmon;
+}
+
+body {
+  background-color: #20201f;
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */

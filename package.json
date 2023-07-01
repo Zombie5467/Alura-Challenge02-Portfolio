@@ -1,0 +1,25 @@
+{
+  "name": "alura-spring02-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zombie5467/Alura-Spring02-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zombie5467/Alura-Spring02-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Zombie5467/Alura-Spring02-Portfolio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}

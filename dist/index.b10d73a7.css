@@ -21,6 +21,38 @@ a {
   list-style: none;
 }
 
+.formacion {
+  background-color: #5f9ea0;
+  padding: 50px;
+}
+
+.formacion h1 {
+  text-align: center;
+}
+
+.formacion__card {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+}
+
+@media (width <= 419px) {
+  .formacion__card img {
+    width: 90%;
+  }
+}
+
+.formacion__card img {
+  border: 1px solid salmon;
+  padding-bottom: 10px;
+}
+
+.formacion__card--items {
+  text-align: center;
+  font-size: 18px;
+}
+
 nav ul {
   flex-wrap: wrap;
   justify-content: space-around;

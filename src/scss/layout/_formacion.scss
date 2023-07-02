@@ -1,0 +1,33 @@
+.formacion {
+    background-color: cadetblue;
+    padding: 50px;
+
+    h1 {
+        text-align: center;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        @media (max-width: 419px) {
+            img {
+                width: 90%;
+            }
+        }
+        
+        img {
+            padding-bottom: 10px;
+            border: 1px solid salmon;
+            
+        }
+
+        &--items {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}
+

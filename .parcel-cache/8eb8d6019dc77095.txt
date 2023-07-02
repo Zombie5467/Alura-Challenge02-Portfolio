@@ -1,12 +1,28 @@
-6139
+6146
 95E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\fixtures\custom-targets\package.json133327120234679967 0
 40E:\Alura-Spring02-Portfolio\package.json133327138420232751 0
 73E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\_\_set\package.json133327120191669665 0
 45E:\Alura-Spring02-Portfolio\package-lock.json133327138420222737 0
-61E:\Alura-Spring02-Portfolio\src\scss\vendors\_googleFont.scss133327184378832655 0
+93E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\domhandler\lib\node.d.ts.map133327120176338766 0
+60E:\Alura-Spring02-Portfolio\node_modules\nth-check\README.md133327120179227202 0
+80E:\Alura-Spring02-Portfolio\node_modules\@parcel\transformer-babel\lib\babel7.js133327120198691209 0
+48E:\Alura-Spring02-Portfolio\src\Assets\img\3.png133323960736873005 0
+88E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\template-literals.js133327120197218085 0
+82E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\eventsource.js133327120191689682 0
+76E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\meter.js133327120193927613 0
+64E:\Alura-Spring02-Portfolio\node_modules\source-map\package.json133327120171784752 0
+35E:\Alura-Spring02-Portfolio\.vscode133327295118835420 1
+35E:\Alura-Spring02-Portfolio\.hintrc133327289511123454 0
+96E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\document-scrollingelement.js133327120191360620 0
+108E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\entities\lib\generated\encode-html.d.ts.map133327120182789493 0
+84E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\accelerometer.js133327120173594945 0
+107E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\reusePaths.js133327120186192306 0
+91E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\parser\sequence.cjs133327120187828413 0
+50E:\Alura-Spring02-Portfolio\node_modules\commander133327120174564556 1
+61E:\Alura-Spring02-Portfolio\src\scss\vendors\_googleFont.scss133327412142737170 0
 75E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\src\InternalConfig.js133327120232444548 0
 86E:\Alura-Spring02-Portfolio\node_modules\@parcel\runtime-js\src\helpers\cacheLoader.js133327120197198070 0
-43E:\Alura-Spring02-Portfolio\src\scss\layout133327193245680483 1
+43E:\Alura-Spring02-Portfolio\src\scss\layout133327306498193691 1
 38E:\Alura-Spring02-Portfolio\.gitignore133327128700747605 0
 76E:\Alura-Spring02-Portfolio\node_modules\update-browserslist-db\package.json133327120173594945 0
 53E:\Alura-Spring02-Portfolio\node_modules\lmdb\LICENSE133327120176914574 0
@@ -20,7 +36,7 @@
 63E:\Alura-Spring02-Portfolio\node_modules\mdn-data\css\readme.md133327120181680791 0
 94E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\fixtures\config\subfolder\.parcelrc133327120231420043 0
 88E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\_\_class_private_field_destructure133327120191051791 1
-32E:\Alura-Spring02-Portfolio\dist133327258281908081 1
+32E:\Alura-Spring02-Portfolio\dist133327426140286059 1
 70E:\Alura-Spring02-Portfolio\node_modules\@parcel\profiler\src\types.js133327120180871875 0
 63E:\Alura-Spring02-Portfolio\node_modules\react-refresh\babel.js133327120172245634 0
 53E:\Alura-Spring02-Portfolio\node_modules\svgo\LICENSE133327120171885632 0
@@ -59,12 +75,6 @@
 70E:\Alura-Spring02-Portfolio\node_modules\@parcel\namer-default\LICENSE133327120213019060 0
 91E:\Alura-Spring02-Portfolio\node_modules\@parcel\utils\test\input\sourcemap\no-sourcemap.js133327120219647206 0
 38E:\Alura-Spring02-Portfolio\src\Assets133327122154912046 1
-80E:\Alura-Spring02-Portfolio\node_modules\lmdb\node_modules\msgpackr\package.json133327120179870478 0
-89E:\Alura-Spring02-Portfolio\node_modules\@babel\highlight\node_modules\chalk\templates.js133327120173691095 0
-54E:\Alura-Spring02-Portfolio\node_modules\parent-module133327120172827765 1
-117E:\Alura-Spring02-Portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js133327120172660899 0
-70E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-css\LICENSE133327120208235791 0
-57E:\Alura-Spring02-Portfolio\src\Assets\img\3[454] (1).png133323960736873005 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\BH.js133327120186182293 0
 61E:\Alura-Spring02-Portfolio\node_modules\msgpackr\SECURITY.md133327120185420150 0
 42E:\Alura-Spring02-Portfolio\src\Assets\svg133324392613297346 1
@@ -80,7 +90,7 @@
 87E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js133327120231751504 0
 75E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lz4\lib\xxhash.h133327120188557558 0
 79E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\cjs\_array_with_holes.cjs133327120173487707 0
-42E:\Alura-Spring02-Portfolio\src\index.html133327237809704797 0
+42E:\Alura-Spring02-Portfolio\src\index.html133327421860995473 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\HN.js133327120192564888 0
 91E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\css-at-counter-style.js133327120188808210 0
 94E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\scope\value.cjs133327120188512012 0
@@ -144,7 +154,7 @@
 84E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\css-animation.js133327120188757595 0
 83E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\style-scoped.js133327120195568841 0
 59E:\Alura-Spring02-Portfolio\node_modules\css-what\readme.md133327120179037130 0
-46E:\Alura-Spring02-Portfolio\src\scss\main.scss133327193544991068 0
+46E:\Alura-Spring02-Portfolio\src\scss\main.scss133327313306625521 0
 103E:\Alura-Spring02-Portfolio\node_modules\@parcel\node-resolver-core\parcel-resolver.linux-x64-musl.node133327120258556175 0
 73E:\Alura-Spring02-Portfolio\node_modules\@parcel\packager-js\lib\index.js133327120203792206 0
 79E:\Alura-Spring02-Portfolio\node_modules\csso\cjs\restructure\1-mergeAtrule.cjs133327120172407705 0
@@ -161,6 +171,8 @@
 99E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\syntax\config\generator.cjs133327120183532276 0
 81E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\pdf-viewer.js133327120194608512 0
 47E:\Alura-Spring02-Portfolio\node_modules\@lezer133327120166169838 1
+116E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\6-restructBlock.js133327120173916861 0
+57E:\Alura-Spring02-Portfolio\src\scss\layout\_sobreMi.scss133327426465029836 0
 42E:\Alura-Spring02-Portfolio\src\scss\pages133308840434080000 1
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\JO.js133327120193247211 0
 80E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\svg-fonts.js133327120195637602 0
@@ -195,7 +207,7 @@
 67E:\Alura-Spring02-Portfolio\node_modules\source-map-js\CHANGELOG.md133327120176884551 0
 94E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\css-overscroll-behavior.js133327120190236081 0
 61E:\Alura-Spring02-Portfolio\node_modules\path-type\index.d.ts133327120172228775 0
-54E:\Alura-Spring02-Portfolio\src\scss\themes\_dark.scss133327161600762354 0
+54E:\Alura-Spring02-Portfolio\src\scss\themes\_dark.scss133327359079403285 0
 68E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\src\_throw.mjs133327120192629973 0
 72E:\Alura-Spring02-Portfolio\node_modules\@parcel\utils\src\countLines.js133327120210849591 0
 53E:\Alura-Spring02-Portfolio\node_modules\browserslist133327120176153361 1
@@ -203,9 +215,9 @@
 74E:\Alura-Spring02-Portfolio\src\Assets\img\photo_4961073022773603441_y.jpg133324268846074197 0
 100E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.1133327120177850114 0
 55E:\Alura-Spring02-Portfolio\node_modules\type-fest\ts41133327120182360563 1
-56E:\Alura-Spring02-Portfolio\src\scss\layout\_navbar.scss133327258516898350 0
+56E:\Alura-Spring02-Portfolio\src\scss\layout\_navbar.scss133327407517827781 0
 57E:\Alura-Spring02-Portfolio\node_modules\mdn-data\LICENSE133327120171815051 0
-53E:\Alura-Spring02-Portfolio\src\scss\base\_reset.scss133327192625477046 0
+53E:\Alura-Spring02-Portfolio\src\scss\base\_reset.scss133327421098537194 0
 60E:\Alura-Spring02-Portfolio\src\Assets\svg\whatsapp-icon.svg133324392614186288 0
 55E:\Alura-Spring02-Portfolio\src\Assets\svg\adobe-xd.svg133323925760166033 0
 81E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\tokenizer133327120188461959 1
@@ -216,12 +228,12 @@
 66E:\Alura-Spring02-Portfolio\node_modules\semver\functions\clean.js133327120172767527 0
 71E:\Alura-Spring02-Portfolio\node_modules\@parcel\cache\src\LMDBCache.js133327120180047747 0
 64E:\Alura-Spring02-Portfolio\node_modules\escalade\sync\index.mjs133327120173967192 0
-61E:\Alura-Spring02-Portfolio\node_modules\msgpackr\unpack.d.ts133327120185589090 0
-73E:\Alura-Spring02-Portfolio\node_modules\css-tree\cjs\syntax\node\CDO.cjs133327120176484155 0
-88E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h133327120188139981 0
 41E:\Alura-Spring02-Portfolio\src\js\app.js133327210243009045 0
 100E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lz4\lib\dll\example\fullbench-dll.vcxproj133327120189468045 0
 75E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\sdch.js133327120195281527 0
+88E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\lmdb.h133327120188139981 0
+61E:\Alura-Spring02-Portfolio\node_modules\msgpackr\unpack.d.ts133327120185589090 0
+73E:\Alura-Spring02-Portfolio\node_modules\css-tree\cjs\syntax\node\CDO.cjs133327120176484155 0
 51E:\Alura-Spring02-Portfolio\node_modules\source-map133327120177571017 1
 89E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\dom-serializer\README.md133327120176413929 0
 63E:\Alura-Spring02-Portfolio\node_modules\commander\package.json133327120173337675 0
@@ -231,7 +243,7 @@
 62E:\Alura-Spring02-Portfolio\node_modules\node-addon-api\napi.h133327120176313652 0
 100E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\atrule133327120182789493 1
 52E:\Alura-Spring02-Portfolio\node_modules\safe-buffer133327120173290382 1
-42E:\Alura-Spring02-Portfolio\src\Assets\img133327189482437440 1
+42E:\Alura-Spring02-Portfolio\src\Assets\img133327320581521911 1
 89E:\Alura-Spring02-Portfolio\node_modules\@babel\highlight\node_modules\color-name\test.js133327120173604944 0
 90E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\lib\convertor\index.js133327120189948327 0
 96E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\fixtures\invalid-engines\package.json133327120234709977 0
@@ -438,11 +450,6 @@
 66E:\Alura-Spring02-Portfolio\node_modules\semver\functions\major.js133327120179648332 0
 86E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\lib\_interop_require_wildcard.js133327120189772919 0
 51E:\Alura-Spring02-Portfolio\node_modules\color-name133327120172837812 1
-108E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\entities\lib\generated\encode-html.d.ts.map133327120182789493 0
-84E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\accelerometer.js133327120173594945 0
-107E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\reusePaths.js133327120186192306 0
-91E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\parser\sequence.cjs133327120187828413 0
-50E:\Alura-Spring02-Portfolio\node_modules\commander133327120174564556 1
 77E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\utils133327120188445649 1
 52E:\Alura-Spring02-Portfolio\node_modules\cosmiconfig133327120182079265 1
 94E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\dist133327120182789493 1
@@ -656,8 +663,8 @@
 63E:\Alura-Spring02-Portfolio\node_modules\tslib\modules\index.js133327120172757537 0
 97E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts.map133327120176403894 0
 99E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\definition-syntax\parse.cjs133327120187397113 0
-57E:\Alura-Spring02-Portfolio\node_modules\msgpackr-extract133327120173936974 1
 90E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133327120177196902 0
+57E:\Alura-Spring02-Portfolio\node_modules\msgpackr-extract133327120173936974 1
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\TW.js133327120197929647 0
 55E:\Alura-Spring02-Portfolio\node_modules\svgo\README.md133327120187092927 0
 70E:\Alura-Spring02-Portfolio\node_modules\css-select\lib\general.js.map133327120184488023 0
@@ -702,6 +709,10 @@
 57E:\Alura-Spring02-Portfolio\node_modules\braces\README.md133327120173372071 0
 68E:\Alura-Spring02-Portfolio\node_modules\weak-lru-cache\package.json133327120174017238 0
 47E:\Alura-Spring02-Portfolio\node_modules\parcel133327120224084752 1
+80E:\Alura-Spring02-Portfolio\node_modules\lmdb\node_modules\msgpackr\package.json133327120179870478 0
+89E:\Alura-Spring02-Portfolio\node_modules\@babel\highlight\node_modules\chalk\templates.js133327120173691095 0
+54E:\Alura-Spring02-Portfolio\node_modules\parent-module133327120172827765 1
+117E:\Alura-Spring02-Portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js133327120172660899 0
 51E:\Alura-Spring02-Portfolio\node_modules\parse-json133327120172827765 1
 64E:\Alura-Spring02-Portfolio\node_modules\parent-module\readme.md133327120172937859 0
 98E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\tokenizer\adopt-buffer.cjs133327120172443271 0
@@ -880,7 +891,7 @@
 59E:\Alura-Spring02-Portfolio\node_modules\utility-types\dist133327120179077346 1
 82E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-swc\src\SwcOptimizer.js133327120208043152 0
 66E:\Alura-Spring02-Portfolio\node_modules\resolve-from\package.json133327120171855590 0
-43E:\Alura-Spring02-Portfolio\dist\index.html133327255889828586 0
+43E:\Alura-Spring02-Portfolio\dist\index.html133327423035012335 0
 80E:\Alura-Spring02-Portfolio\node_modules\css-tree\lib\syntax\node\Declaration.js133327120189659905 0
 66E:\Alura-Spring02-Portfolio\node_modules\utility-types\SECURITY.md133327120176718622 0
 61E:\Alura-Spring02-Portfolio\node_modules\json5\lib\require.js133327120174533031 0
@@ -983,6 +994,7 @@
 70E:\Alura-Spring02-Portfolio\node_modules\nullthrows\nullthrows.js.flow133327120173310402 0
 84E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\css-clip-path.js133327120189198872 0
 71E:\Alura-Spring02-Portfolio\node_modules\type-fest\source\asyncify.d.ts133327120173544867 0
+49E:\Alura-Spring02-Portfolio\.vscode\settings.json133327295243951313 0
 71E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\lib\Dependency.js133327120232100153 0
 79E:\Alura-Spring02-Portfolio\node_modules\sass\types\logger\source_location.d.ts133327138416978398 0
 88E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\src\_object_without_properties.mjs133327120192540101 0
@@ -1054,7 +1066,7 @@
 93E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\passive-event-listener.js133327120194568454 0
 53E:\Alura-Spring02-Portfolio\node_modules\posthtml\lib133327120172630686 1
 93E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\getelementsbyclassname.js133327120192244249 0
-69E:\Alura-Spring02-Portfolio\dist\Alura-Spring02-Portfolio.59712999.js133327255888684195 0
+69E:\Alura-Spring02-Portfolio\dist\Alura-Spring02-Portfolio.59712999.js133327423034992307 0
 70E:\Alura-Spring02-Portfolio\node_modules\electron-to-chromium\index.js133327120173942390 0
 75E:\Alura-Spring02-Portfolio\node_modules\type-fest\source\package-json.d.ts133327120179860466 0
 79E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\lib\public\BundleGroup.js133327120231968362 0
@@ -1213,11 +1225,6 @@
 64E:\Alura-Spring02-Portfolio\node_modules\posthtml-parser\license133327120171905641 0
 104E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\entities\lib\generated\encode-html.d.ts133327120185889682 0
 57E:\Alura-Spring02-Portfolio\node_modules\term-size\vendor133327120173412102 1
-83E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\PublicDependency.test.js133327120232889281 0
-69E:\Alura-Spring02-Portfolio\node_modules\csso\cjs\restructure\prepare133327120182191775 1
-89E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\cjs\_class_apply_descriptor_get.cjs133327120176939670 0
-89E:\Alura-Spring02-Portfolio\node_modules\csso\cjs\restructure\prepare\processSelector.cjs133327120181768076 0
-55E:\Alura-Spring02-Portfolio\node_modules\sass\README.md133327138416502273 0
 67E:\Alura-Spring02-Portfolio\node_modules\term-size\vendor\.DS_Store133327120172009285 0
 98E:\Alura-Spring02-Portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest6.c133327120186772785 0
 65E:\Alura-Spring02-Portfolio\node_modules\supports-color\readme.md133327120173290382 0
@@ -1380,6 +1387,7 @@
 108E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeAttrs.js133327120183667924 0
 57E:\Alura-Spring02-Portfolio\node_modules\svgo\lib\path.js133327120181808501 0
 63E:\Alura-Spring02-Portfolio\node_modules\nth-check\lib\parse.js133327120173987212 0
+53E:\Alura-Spring02-Portfolio\dist\image 8.63c00d0f.png133327319505714749 0
 58E:\Alura-Spring02-Portfolio\node_modules\parcel\lib\bin.js133327120224028802 0
 78E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\rellist.js133327120195052239 0
 84E:\Alura-Spring02-Portfolio\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133327120228361581 0
@@ -1438,7 +1446,6 @@
 82E:\Alura-Spring02-Portfolio\node_modules\css-tree\cjs\syntax\node\SelectorList.cjs133327120188104886 0
 98E:\Alura-Spring02-Portfolio\node_modules\@parcel\runtime-js\src\helpers\browser\prefetch-loader.js133327120197789617 0
 56E:\Alura-Spring02-Portfolio\node_modules\source-map\dist133327120180030872 1
-64E:\Alura-Spring02-Portfolio\node_modules\source-map\package.json133327120171784752 0
 87E:\Alura-Spring02-Portfolio\node_modules\csso\node_modules\css-tree\cjs\lexer\trace.cjs133327120188313344 0
 79E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\src\_class_call_check.mjs133327120192139685 0
 94E:\Alura-Spring02-Portfolio\node_modules\@babel\highlight\node_modules\color-name\package.json133327120171959232 0
@@ -1537,6 +1544,11 @@
 69E:\Alura-Spring02-Portfolio\node_modules\nth-check\lib\esm\parse.d.ts133327120179880482 0
 53E:\Alura-Spring02-Portfolio\node_modules\sass\LICENSE133327138413987849 0
 60E:\Alura-Spring02-Portfolio\node_modules\posthtml\lib\api.js133327120172357656 0
+83E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\PublicDependency.test.js133327120232889281 0
+69E:\Alura-Spring02-Portfolio\node_modules\csso\cjs\restructure\prepare133327120182191775 1
+89E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\cjs\_class_apply_descriptor_get.cjs133327120176939670 0
+89E:\Alura-Spring02-Portfolio\node_modules\csso\cjs\restructure\prepare\processSelector.cjs133327120181768076 0
+55E:\Alura-Spring02-Portfolio\node_modules\sass\README.md133327138416502273 0
 89E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\lib\_possible_constructor_return.js133327120190101173 0
 58E:\Alura-Spring02-Portfolio\node_modules\sass\sass.dart.js133327138416457380 0
 73E:\Alura-Spring02-Portfolio\node_modules\css-tree\lib\syntax\node\Rule.js133327120190527217 0
@@ -1818,8 +1830,6 @@
 64E:\Alura-Spring02-Portfolio\node_modules\nullthrows\package.json133327120171936802 0
 86E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\lib\_class_private_method_set.js133327120189091099 0
 61E:\Alura-Spring02-Portfolio\node_modules\nullthrows\README.md133327120173594945 0
-93E:\Alura-Spring02-Portfolio\node_modules\css-select\node_modules\domhandler\lib\node.d.ts.map133327120176338766 0
-60E:\Alura-Spring02-Portfolio\node_modules\nth-check\README.md133327120179227202 0
 89E:\Alura-Spring02-Portfolio\node_modules\css-select\lib\pseudo-selectors\filters.d.ts.map133327120182944309 0
 67E:\Alura-Spring02-Portfolio\node_modules\nth-check\lib\compile.d.ts133327120179367926 0
 77E:\Alura-Spring02-Portfolio\node_modules\lmdb\node_modules\msgpackr\unpack.js133327120179648332 0
@@ -2809,8 +2819,8 @@
 81E:\Alura-Spring02-Portfolio\node_modules\abortcontroller-polyfill\src\ponyfill.js133327120176113188 0
 93E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\decode.d.ts133327120177551003 0
 103E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\decode_codepoint.d.ts133327120177156871 0
-97E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts.map133327120176579677 0
 79E:\Alura-Spring02-Portfolio\node_modules\css-tree\lib\syntax\atrule\supports.js133327120190727574 0
+97E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts.map133327120176579677 0
 91E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\encode.js133327120173105887 0
 63E:\Alura-Spring02-Portfolio\node_modules\@parcel\fs\src\find.js133327120218188322 0
 92E:\Alura-Spring02-Portfolio\node_modules\dom-serializer\node_modules\entities\lib\index.d.ts133327120177839686 0
@@ -4039,6 +4049,7 @@
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\MW.js133327120194185397 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\MX.js133327120194197172 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\MZ.js133327120194209486 0
+70E:\Alura-Spring02-Portfolio\dist\Google-Bard-Logo.97ec427e.png.8352.3i133327414751213440 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\NC.js133327120194260782 0
 105E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\clean\Atrule.js133327120176012983 0
 72E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\regions\NE.js133327120194260782 0
@@ -4149,9 +4160,9 @@
 82E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\blobbuilder.js133327120186542696 0
 112E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\replace\property\border.js133327120176960728 0
 83E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\border-image.js133327120186949901 0
+78E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\cjs\_super_prop_base.cjs133327120186572219 0
 84E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\border-radius.js133327120186979926 0
 74E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\esm\_ts_generator.js133327120190415061 0
-78E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\cjs\_super_prop_base.cjs133327120186572219 0
 97E:\Alura-Spring02-Portfolio\node_modules\@swc\helpers\lib\_class_static_private_field_spec_get.js133327120189250471 0
 75E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\calc.js133327120187561199 0
 79E:\Alura-Spring02-Portfolio\node_modules\@parcel\packager-js\src\dev-prelude.js133327120203490225 0
@@ -4291,7 +4302,6 @@
 77E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\dialog.js133327120191227311 0
 94E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js133327120191327413 0
 91E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\document-execcommand.js133327120191338174 0
-96E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\document-scrollingelement.js133327120191360620 0
 77E:\Alura-Spring02-Portfolio\node_modules\@parcel\watcher\src\watchman\BSER.cc133327120173614969 0
 83E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\documenthead.js133327120191370617 0
 111E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\preset-default.js133327120183217958 0
@@ -4307,10 +4317,6 @@
 82E:\Alura-Spring02-Portfolio\node_modules\@parcel\core\test\fixtures\common-targets133327120234594304 1
 74E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\es5.js133327120191600894 0
 81E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\es6-number.js133327120191659675 0
-80E:\Alura-Spring02-Portfolio\node_modules\@parcel\transformer-babel\lib\babel7.js133327120198691209 0
-88E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\template-literals.js133327120197218085 0
-82E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\eventsource.js133327120191689682 0
-76E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\meter.js133327120193927613 0
 92E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\extended-system-fonts.js133327120191699691 0
 78E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\fileapi.js133327120191798935 0
 81E:\Alura-Spring02-Portfolio\node_modules\caniuse-lite\data\features\filesystem.js133327120191828953 0
@@ -5476,7 +5482,6 @@
 114E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\1-mergeAtrule.js133327120172453294 0
 122E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133327120172802708 0
 120E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\4-restructShorthand.js133327120173574919 0
-116E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\6-restructBlock.js133327120173916861 0
 106E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\index.js133327120182567823 0
 105E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare133327120184387598 1
 133E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-svgo\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133327120179087350 0
@@ -5837,6 +5842,7 @@
 92E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\lib\HTMLNanoOptimizer.js133327120209217305 0
 86E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-htmlnano\lib\svgMappings.js133327120209237392 0
 66E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-css\lib133327120208240123 1
+70E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-css\LICENSE133327120208235791 0
 66E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-css\src133327120208250153 1
 82E:\Alura-Spring02-Portfolio\node_modules\@parcel\optimizer-css\lib\CSSOptimizer.js133327120208240123 0
 77E:\Alura-Spring02-Portfolio\node_modules\@parcel\node-resolver-core\native.js133327120182908723 0
@@ -6132,9 +6138,10 @@
 56E:\Alura-Spring02-Portfolio\node_modules\.bin\semver.ps1133327120515703376 0
 72E:\Alura-Spring02-Portfolio\node_modules\.bin\update-browserslist-db.cmd133327120515703376 0
 72E:\Alura-Spring02-Portfolio\node_modules\.bin\update-browserslist-db.ps1133327120515703376 0
-73E:\Alura-Spring02-Portfolio\dist\Alura-Spring02-Portfolio.59712999.js.map133327255888719281 0
-62E:\Alura-Spring02-Portfolio\dist\Google-Bard-Logo.97ec427e.png133327255888739656 0
-50E:\Alura-Spring02-Portfolio\dist\index.8f0c9192.js133327255889497877 0
-54E:\Alura-Spring02-Portfolio\dist\index.8f0c9192.js.map133327255889529589 0
-51E:\Alura-Spring02-Portfolio\dist\index.b10d73a7.css133327258281888059 0
-55E:\Alura-Spring02-Portfolio\dist\index.b10d73a7.css.map133327258281898079 0
+47E:\Alura-Spring02-Portfolio\dist\3.aa862d50.png133327423035502756 0
+73E:\Alura-Spring02-Portfolio\dist\Alura-Spring02-Portfolio.59712999.js.map133327423035052353 0
+62E:\Alura-Spring02-Portfolio\dist\Google-Bard-Logo.97ec427e.png133327423035082393 0
+50E:\Alura-Spring02-Portfolio\dist\index.8f0c9192.js133327423034992307 0
+54E:\Alura-Spring02-Portfolio\dist\index.8f0c9192.js.map133327423035052353 0
+51E:\Alura-Spring02-Portfolio\dist\index.b10d73a7.css133327426140256040 0
+55E:\Alura-Spring02-Portfolio\dist\index.b10d73a7.css.map133327426140276055 0

@@ -1,6 +1,6 @@
 .formacion {
     background-color: cadetblue;
-    padding: 50px;
+    padding: 3.125em;
 
     h1 {
         text-align: center;
@@ -10,7 +10,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 30px;
+        gap: 1.875em;
 
         @media (max-width: 419px) {
             img {
@@ -19,14 +19,14 @@
         }
         
         img {
-            padding-bottom: 10px;
+            padding-bottom: 0.625em;
             border: 1px solid salmon;
             
         }
 
         &--items {
             text-align: center;
-            font-size: 18px;
+            font-size: 1.125rem;
         }
     }
 }

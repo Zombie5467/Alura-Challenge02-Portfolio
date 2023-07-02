@@ -4,16 +4,16 @@
 
     h1  {
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 1.5625em;
     }
 
     
     &__card {
-        font-size: 18px;
+        font-size: 1.125rem;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 1.5625em;
 
         @media (max-width: 601px) {
             justify-content:center;
@@ -28,7 +28,7 @@
             width: 15%;
             //height: 200px;
             aspect-ratio: 3 / 2;
-            padding: 25px;
+            padding: 1.5625em;
             background-color: rgb(84, 121, 121);
             border: 1px solid salmon;
             border-radius: 8px;
@@ -45,7 +45,7 @@
                 width: 40%;
                 justify-content: center;
                 align-items: center;
-                font-size: 12px;
+                font-size: .75rem;
             }
         }
     }

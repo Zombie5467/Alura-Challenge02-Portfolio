@@ -1,0 +1,42 @@
+.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    
+    img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+
+        @media (max-width: 1434px) {
+            width: 100%;
+            // height: auto;
+        }
+    }
+
+    &__text {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        font-size: 30px;
+        width: 30%;
+        text-align: center;
+        margin-bottom: 20px;
+        
+        
+        // display: inline-block;
+        border: 1px solid salmon;
+
+        p {
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 1434px) {
+            width: 70%;
+            font-size: 20px;
+        }
+    }
+}

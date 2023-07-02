@@ -21,9 +21,49 @@ a {
   list-style: none;
 }
 
+.experiencia {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  display: flex;
+}
+
+.experiencia img {
+  width: 60%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (width <= 1434px) {
+  .experiencia img {
+    width: 100%;
+  }
+}
+
+.experiencia__text {
+  text-align: center;
+  border: 1px solid salmon;
+  width: 30%;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.experiencia__text p {
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+@media (width <= 1434px) {
+  .experiencia__text {
+    width: 70%;
+    font-size: 20px;
+  }
+}
+
 .formacion {
   background-color: #5f9ea0;
-  padding: 50px;
+  padding: 3.125em;
 }
 
 .formacion h1 {
@@ -33,7 +73,7 @@ a {
 .formacion__card {
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 1.875em;
   display: flex;
 }
 
@@ -45,12 +85,12 @@ a {
 
 .formacion__card img {
   border: 1px solid salmon;
-  padding-bottom: 10px;
+  padding-bottom: .625em;
 }
 
 .formacion__card--items {
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 nav ul {
@@ -213,14 +253,14 @@ nav li {
 
 .skills h1 {
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625em;
 }
 
 .skills__card {
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 25px;
-  font-size: 18px;
+  gap: 1.5625em;
+  font-size: 1.125rem;
   display: flex;
 }
 
@@ -239,7 +279,7 @@ nav li {
   justify-content: flex-end;
   align-items: flex-start;
   width: 15%;
-  padding: 25px;
+  padding: 1.5625em;
   display: flex;
 }
 
@@ -258,7 +298,7 @@ nav li {
     justify-content: center;
     align-items: center;
     width: 40%;
-    font-size: 12px;
+    font-size: .75rem;
   }
 }
 

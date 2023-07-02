@@ -1,0 +1,52 @@
+.skills {
+    padding: 50px;
+    border: 1px solid salmon;
+
+    h1  {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    
+    &__card {
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        @media (max-width: 601px) {
+            justify-content:center;
+                
+        }
+            
+        &--elements {
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-end;
+            align-items:flex-start;
+            width: 15%;
+            //height: 200px;
+            aspect-ratio: 3 / 2;
+            padding: 25px;
+            background-color: rgb(84, 121, 121);
+            border: 1px solid salmon;
+            border-radius: 8px;
+
+            img {
+                margin-bottom: 5px;
+            }
+
+            @media (max-width: 1000px) {
+                width: 30%;
+            }
+
+            @media (max-width: 601px) {
+                width: 40%;
+                justify-content: center;
+                align-items: center;
+                font-size: 12px;
+            }
+        }
+    }
+}

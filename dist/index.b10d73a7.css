@@ -61,6 +61,12 @@ a {
   }
 }
 
+.form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .formacion {
   background-color: #5f9ea0;
   padding: 3.125em;

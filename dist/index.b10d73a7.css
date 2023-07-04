@@ -21,6 +21,12 @@ a {
   list-style: none;
 }
 
+.form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .experiencia {
   flex-wrap: wrap;
   justify-content: space-around;
@@ -59,12 +65,6 @@ a {
     width: 70%;
     font-size: 20px;
   }
-}
-
-.form {
-  justify-content: center;
-  align-items: center;
-  display: flex;
 }
 
 .formacion {

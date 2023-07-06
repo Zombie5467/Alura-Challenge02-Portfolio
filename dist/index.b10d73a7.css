@@ -1,4 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap";
+.skills__card--elements, .skills, .presentacion .presentacion__img, .presentacion .presentacion__text h1, nav ul div, .formacion__card img, .experiencia__text {
+  border: 1px solid salmon;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,6 +29,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 1.5625em;
   margin: 20px 0;
   display: flex;
 }
@@ -43,7 +48,6 @@ a {
 
 .experiencia__text {
   text-align: center;
-  border: 1px solid salmon;
   width: 30%;
   margin-bottom: 20px;
   font-size: 30px;
@@ -85,7 +89,6 @@ a {
 }
 
 .formacion__card img {
-  border: 1px solid salmon;
   padding-bottom: .625em;
 }
 
@@ -118,8 +121,6 @@ nav ul {
 }
 
 nav ul div {
-  justify-content: none;
-  border: 1px solid salmon;
   flex-wrap: wrap;
   align-items: center;
   gap: .625em;
@@ -141,7 +142,6 @@ nav ul div {
 @media (width <= 500px) {
   nav ul div {
     flex-direction: column;
-    gap: 1.5625em;
     margin-bottom: 1.5625em;
   }
 }
@@ -169,6 +169,7 @@ nav li {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 1.5625em;
   padding: 50px 50px 0;
   display: flex;
 }
@@ -191,7 +192,6 @@ nav li {
 }
 
 .presentacion .presentacion__text h1 {
-  border: 1px solid salmon;
   margin-bottom: 1.25em;
   font-size: 4.0625rem;
 }
@@ -215,10 +215,10 @@ nav li {
 }
 
 .presentacion .presentacion__img {
-  border: 1px solid salmon;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 1.5625em;
   width: 30%;
   display: flex;
 }
@@ -253,7 +253,6 @@ nav li {
 }
 
 .skills {
-  border: 1px solid salmon;
   padding: 50px;
 }
 
@@ -280,7 +279,6 @@ nav li {
 .skills__card--elements {
   aspect-ratio: 3 / 2;
   background-color: #547979;
-  border: 1px solid salmon;
   border-radius: 8px;
   flex-direction: column;
   justify-content: flex-end;

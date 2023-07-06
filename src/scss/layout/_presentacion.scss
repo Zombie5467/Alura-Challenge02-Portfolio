@@ -18,8 +18,9 @@
 
         h1 {
             font-size: 4.0625rem;
-            border: 1px solid salmon;
             margin-bottom: 1.25em;
+            @extend %border;
+            // border: 1px solid salmon;
 
             @media (max-width: 1227px) {
                 font-size: 2.1875rem;
@@ -42,8 +43,9 @@
         @include flex(flex, center);
         // display: flex;
         // justify-content: center;
+        // border: 1px solid salmon;
+        @extend %border;
         width: 30%;
-        border: 1px solid salmon;
 
         @media (max-width: 750px) {
             width: 100%;

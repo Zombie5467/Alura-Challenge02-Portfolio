@@ -1,8 +1,9 @@
-@mixin flex($display:flex, $j-content:center, $a-items:center, $wrap:wrap) {
+@mixin flex($display:flex, $j-content:center, $a-items:center, $wrap:wrap, $gap:1.5625em) {
     display: $display;
     justify-content: $j-content;
     align-items: $a-items;
     flex-wrap: $wrap;
+    gap: $gap;
 }
 
 /*

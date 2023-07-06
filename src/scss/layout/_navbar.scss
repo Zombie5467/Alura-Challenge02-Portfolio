@@ -1,6 +1,6 @@
 nav {
     ul {
-    @include flex($j-content: space-around);
+    @include flex($j-content: space-around, $gap:null);
     // display: flex;
     // justify-content: space-around;
     // flex-wrap: wrap;
@@ -20,12 +20,13 @@ nav {
 
 
     div {
-        @include flex($j-content:none);
+        @include flex($j-content:null, $gap:0.625em);
         // display: flex;
         // align-items: center;
         // flex-wrap: wrap;
-        gap: 0.625em;
-        border: 1px solid salmon;
+        // gap: 0.625em;
+        // border: 1px solid salmon;
+         @extend %border;
         
         @media (max-width: 636px) {
            gap: 1.5625em;
@@ -38,7 +39,7 @@ nav {
         @media (max-width: 500px) {
             margin-bottom: 1.5625em;
             flex-direction: column;
-            gap: 1.5625em;
+            // gap: 1.5625em;
         }
     }
 
@@ -64,3 +65,9 @@ li {
     // display: inline-block;
     }
 }
+
+/*
+
+ESTE ES UN COMENTARIO DE PRUEBA
+
+*/

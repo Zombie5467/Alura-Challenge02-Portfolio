@@ -1,8 +1,8 @@
 .presentacion {
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex($j-content: space-around);
+    // display: flex;
+    // justify-content: space-around;
+    // align-items: center;
     padding: 50 50 0 50;
 
     @media (max-width: 750px) {
@@ -39,8 +39,9 @@
     }
     
     .presentacion__img {
-        display: flex;
-        justify-content: center;
+        @include flex(flex, center);
+        // display: flex;
+        // justify-content: center;
         width: 30%;
         border: 1px solid salmon;
 

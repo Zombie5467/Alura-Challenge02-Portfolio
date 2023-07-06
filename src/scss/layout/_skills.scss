@@ -1,3 +1,4 @@
+
 .skills {
     padding: 50px;
     border: 1px solid salmon;
@@ -9,11 +10,12 @@
 
     
     &__card {
-        font-size: 1.125rem;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        @include flex($display:flex, $j-content:space-between, $wrap:wrap); 
+        // display: flex;
+        // justify-content: space-between;
+        // flex-wrap: wrap;
         gap: 1.5625em;
+        font-size: 1.125rem;
 
         @media (max-width: 601px) {
             justify-content:center;
@@ -21,10 +23,11 @@
         }
             
         &--elements {
+            // @include flex(flex, flex-end, flex-start); 
             display: flex;
-            flex-direction: column;
             justify-content:flex-end;
             align-items:flex-start;
+            flex-direction: column;
             width: 15%;
             //height: 200px;
             aspect-ratio: 3 / 2;
@@ -42,9 +45,10 @@
             }
 
             @media (max-width: 601px) {
-                width: 40%;
+                // @include flex($j-content:center, $a-items:center); 
                 justify-content: center;
                 align-items: center;
+                width: 40%;
                 font-size: .75rem;
             }
         }

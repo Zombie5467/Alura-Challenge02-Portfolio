@@ -1,8 +1,9 @@
 nav {
     ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include flex($j-content: space-around);
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
     margin: 1.5625em 0;
 
     @media (max-width: 791px) {
@@ -19,10 +20,11 @@ nav {
 
 
     div {
-        display: flex;
-        align-items: center;
+        @include flex($j-content:none);
+        // display: flex;
+        // align-items: center;
+        // flex-wrap: wrap;
         gap: 0.625em;
-        flex-wrap: wrap;
         border: 1px solid salmon;
         
         @media (max-width: 636px) {
@@ -60,5 +62,5 @@ nav {
 li {
     border: 1px solid salmon;
     // display: inline-block;
-}
+    }
 }

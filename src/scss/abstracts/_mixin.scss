@@ -1,0 +1,12 @@
+@mixin flex($display:flex, $j-content:center, $a-items:center, $wrap:wrap) {
+    display: $display;
+    justify-content: $j-content;
+    align-items: $a-items;
+    flex-wrap: $wrap;
+}
+
+/*
+    Nota Personal
+    $j-content = justify-content
+    $a-items = align-items
+*/

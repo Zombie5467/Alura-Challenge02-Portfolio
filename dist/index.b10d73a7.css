@@ -21,12 +21,6 @@ a {
   list-style: none;
 }
 
-.form {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .experiencia {
   flex-wrap: wrap;
   justify-content: space-around;
@@ -77,9 +71,10 @@ a {
 }
 
 .formacion__card {
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 1.875em;
+  align-items: none;
+  flex-wrap: wrap;
+  gap: 1.5625em;
   display: flex;
 }
 
@@ -102,6 +97,7 @@ a {
 nav ul {
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   margin: 1.5625em 0;
   display: flex;
 }
@@ -122,6 +118,7 @@ nav ul {
 }
 
 nav ul div {
+  justify-content: none;
   border: 1px solid salmon;
   flex-wrap: wrap;
   align-items: center;
@@ -169,6 +166,7 @@ nav li {
 }
 
 .presentacion {
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 50px 50px 0;
@@ -218,7 +216,9 @@ nav li {
 
 .presentacion .presentacion__img {
   border: 1px solid salmon;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   width: 30%;
   display: flex;
 }
@@ -265,6 +265,7 @@ nav li {
 .skills__card {
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 1.5625em;
   font-size: 1.125rem;
   display: flex;

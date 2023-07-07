@@ -1,0 +1,14 @@
+.sobreMi {
+    @include contain();
+        
+    h1,p {
+        width: 70%;
+        margin-bottom: 40px;
+
+        @media (max-width: 901px) {
+            width: 100%;
+            text-align: center;
+            font-size: 1.25rem;  
+        }
+    }
+}

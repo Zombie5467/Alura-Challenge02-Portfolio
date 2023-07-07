@@ -1,0 +1,32 @@
+@mixin flex($display:flex, $j-content:center, $a-items:center, $wrap:wrap, $gap:1.5625em) {
+    display: $display;
+    justify-content: $j-content;
+    align-items: $a-items;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+/*
+    NOTA PERSONAL
+    $j-content = justify-content
+    $a-items = align-items
+*/
+
+@mixin contain() {
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5925ae, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5925ae, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 60vh;
+    padding: 4.375em;   
+    font-size: 1.5625rem;
+
+    @media (max-width: 1800px) {
+            height: auto;
+            padding: 1.25em;
+        }
+}

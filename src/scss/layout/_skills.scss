@@ -1,0 +1,54 @@
+
+.skills {
+    padding: 50px;
+
+    h1  {
+        text-align: center;
+        margin-bottom: 1.5625em;
+        font-size: 2.1875rem;
+    }
+
+    
+    &__card {
+        @include flex($j-content:space-between); 
+        font-size: 1.125rem;
+
+        @media (max-width: 662px) {
+            justify-content:center;
+        }
+            
+        &--elements {
+            // @include flex($j-content:flex-end, $a-items:flex-start, $wrap:wrap, $gap:null); 
+            // Este include no quiso funcionar, nunca entendí por que.
+            display: flex;
+            justify-content:flex-end;
+            align-items:flex-start;
+            flex-direction: column;
+
+            width: 15%;
+            aspect-ratio: 3 / 2;
+            
+            border-radius: 12px;
+            background-color: rgb(32, 32, 31);
+        
+            padding: 1.5625em;
+            border-radius: 8px;
+
+            img {
+                margin-bottom: 0.3125em;
+            }
+
+            @media (max-width: 1000px) {
+                width: 30%;
+            }
+
+            @media (max-width: 601px) {
+                justify-content: center;
+                align-items: center;
+
+                width: 40%;
+                font-size: .75rem;
+            }
+        }
+    }
+}

@@ -1,2 +1,8 @@
-#Ignorar node modules
+# Ignorar carpeta de node
 node_modules
+
+# Ignorar cache
+.parcel-cache
+
+# Ignorar dist
+dist

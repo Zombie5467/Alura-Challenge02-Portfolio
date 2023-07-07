@@ -1,49 +1,62 @@
-ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-    @media (max-width: 785px) {
-        margin-bottom: 1.5625rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    div {
-        display: flex;
-        align-items: center;
-        gap: .625rem;
-        flex-wrap: wrap;
-        color: aliceblue;
-        border: 1px solid salmon;
-        
-        @media (max-width: 785px) {
-        margin-bottom: 1.5625rem;
-        flex-direction: column;
-        gap: 1.5625rem;
+nav {
+    ul {
+        @include flex($j-content: space-around, $gap:null);
+        margin: 1.5625em 0;
+         
+        @media (max-width: 791px) {
+            // margin-left: 0;
+            gap: 1.5625em;
         }
-    }
 
-    .div--li__dos > *:not(:first-child) {
-        margin-left: 1.25rem;
 
-        @media (max-width: 785px) {
-        margin-left: 0;
+        @media (max-width: 500px) {
+            margin-bottom: 1.5625em;
+            flex-direction: column;
+            align-items: center;
         }
-    }
 
-    .font--weight {
-        color: #8e2de2;
-        font-weight: $w-bold;
-    }
 
+        div {
+            @include flex($j-content:null, $gap:0.625em);
+
+            @media (max-width: 850px) {
+                gap: 1.5625em;
+                justify-content: center;
+                margin: 0.5em;
+            }
+        }
+
+        .div--li__dos li {
+            margin-left: 1.25em;
+
+            @media (max-width: 839px) {
+              margin-left: 0;
+            }
+        }
+
+        .font--weight {
+            // color: #8e2de2;
+            color: #6510af;
+            font-weight: $w-bold;
+            transition: all 0.3s ease-in-out;
+        }       
+    }
 }
 
 
 
+a {
+    transition: all 0.3s ease-in-out;
+}
 
-li {
-    border: 1px solid salmon;
-    // display: inline-block;
+.div--li__dos li a:hover{
+    color: #6510af;
+}
+
+.div--li__dos li a:hover:last-child{
+    color: #8e2de2;
+}
+
+.font--weight:hover:last-child {
+    color: #8e2de2;
 }

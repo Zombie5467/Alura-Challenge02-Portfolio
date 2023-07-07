@@ -1,12 +1,22 @@
 
 //abstracts
+@import"abstracts/mixin";
+@import"abstracts/placeholders";
 @import"abstracts/variables";
 
 //base
 @import"base/reset";
 
 //components
+@import"components/form";
+
+//layout
+@import"layout/experiencias";
+@import"layout/formacion";
 @import"layout/navbar";
+@import"layout/presentacion";
+@import"layout/skills";
+@import"layout/sobreMi";
 
 //themes
 @import"themes/dark";

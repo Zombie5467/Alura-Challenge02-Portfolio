@@ -1,19 +1,10 @@
 .experiencia {
     @include flex($j-content:space-around);
-<<<<<<< HEAD
     margin: 1.25em 0;
-=======
-    // display: flex;
-    // justify-content: space-around;
-    // align-items: center;
-    // flex-wrap: wrap;
-    margin: 20px 0;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
     
     img {
         width: 60%;
         height: auto;
-<<<<<<< HEAD
         margin-bottom: 1.25em;
 
         @media (max-width: 1434px) {
@@ -78,37 +69,4 @@ button:active {
     text-align: center;
     margin: 1.5625em;
     font-size: 2.1875rem;
-=======
-        margin-bottom: 20px;
-
-        @media (max-width: 1434px) {
-            width: 100%;
-            // height: auto;
-        }
-    }
-
-    &__text {
-        // display: inline-block;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        font-size: 30px;
-        width: 30%;
-        text-align: center;
-        margin-bottom: 20px;
-        
-        @extend %border;
-        // border: 1px solid salmon;
-
-        p {
-            font-weight: 100;
-            margin-bottom: 20px;
-        }
-        
-        @media (max-width: 1434px) {
-            width: 70%;
-            font-size: 20px;
-        }
-    }
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 }

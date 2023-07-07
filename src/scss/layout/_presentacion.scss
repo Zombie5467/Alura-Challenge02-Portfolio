@@ -1,18 +1,8 @@
 .presentacion {
     @include flex($j-content: space-around);
-<<<<<<< HEAD
     padding: 50 50 0 50;
 
     @media (max-width: 750px) {
-=======
-    // display: flex;
-    // justify-content: space-around;
-    // align-items: center;
-    padding: 50 50 0 50;
-
-    @media (max-width: 750px) {
-        flex-direction: column;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
         text-align: center;
     }
 
@@ -25,11 +15,6 @@
         h1 {
             font-size: 4.0625rem;
             margin-bottom: 1.25em;
-<<<<<<< HEAD
-=======
-            @extend %border;
-            // border: 1px solid salmon;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 
             @media (max-width: 1227px) {
                 font-size: 2.1875rem;
@@ -38,34 +23,18 @@
 
         p {
             font-size: 1.875rem;
-<<<<<<< HEAD
             font-weight: $w-thin;
             margin-bottom: 1.25em;  
 
             @media (max-width: 1227px) {
                 font-size: 1.25rem;
-=======
-            font-weight: 100;
-            margin-bottom: 1.25em;  
-
-            @media (max-width: 1227px) {
-            font-size: 1.25rem;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
             }
         }
 
     }
     
     .presentacion__img {
-<<<<<<< HEAD
         @include flex();
-=======
-        @include flex(flex, center);
-        // display: flex;
-        // justify-content: center;
-        // border: 1px solid salmon;
-        @extend %border;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
         width: 30%;
 
         @media (max-width: 750px) {
@@ -73,22 +42,12 @@
         }
 
         img {
-<<<<<<< HEAD
             overflow:hidden;
-=======
-            overflow: hidden;
-            object-fit: contain;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
         }
     }
 
     ul {
-<<<<<<< HEAD
         @include flex($j-content:null, $a-items:null, $wrap:null, $gap:2.8125em);
-=======
-        display: flex;
-        gap: 2.8125em;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 
         @media (max-width: 872px) {
             gap: 1.5625em;
@@ -97,7 +56,6 @@
 
         @media (max-width: 450px) {
             flex-wrap: wrap;
-<<<<<<< HEAD
         }      
     }
 }
@@ -108,10 +66,4 @@ a {
 
 li:hover a {
     color: #6510af;;
-=======
-        }
-        
-    }
-
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 }

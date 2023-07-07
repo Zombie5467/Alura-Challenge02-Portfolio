@@ -2,7 +2,7 @@
 node_modules
 
 # Ignorar cache
-.parcel-cache
+.parcel-cache/
 
 # Ignorar dist
-dist
+dist/

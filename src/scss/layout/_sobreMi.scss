@@ -1,5 +1,4 @@
 .sobreMi {
-<<<<<<< HEAD
     @include contain();
         
     h1,p {
@@ -13,25 +12,3 @@
         }
     }
 }
-=======
-    background-color: cadetblue;
-    padding: 3.125em;
-
-    //  @media (max-width: 801px) {
-    //     margin: 0;
-    // }
-    
-
-    h1,p {
-        width: 70%;
-        margin-bottom: 30px;
-
-        @media (max-width: 801px) {
-            width: 100%;
-            text-align: center;
-        }
-    }
-
-    
-}
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f

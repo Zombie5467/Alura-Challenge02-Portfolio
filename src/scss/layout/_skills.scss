@@ -1,25 +1,16 @@
 
 .skills {
     padding: 50px;
-<<<<<<< HEAD
-=======
-     @extend %border;
-    // border: 1px solid salmon;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 
     h1  {
         text-align: center;
         margin-bottom: 1.5625em;
-<<<<<<< HEAD
         font-size: 2.1875rem;
-=======
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
     }
 
     
     &__card {
         @include flex($j-content:space-between); 
-<<<<<<< HEAD
         font-size: 1.125rem;
 
         @media (max-width: 662px) {
@@ -29,26 +20,10 @@
         &--elements {
             // @include flex($j-content:flex-end, $a-items:flex-start, $wrap:wrap, $gap:null); 
             // Este include no quiso funcionar, nunca entendí por que.
-=======
-        // display: flex;
-        // justify-content: space-between;
-        // flex-wrap: wrap;
-        // gap: 1.5625em;
-        font-size: 1.125rem;
-
-        @media (max-width: 601px) {
-            justify-content:center;
-                
-        }
-            
-        &--elements {
-            // @include flex(flex, flex-end, flex-start); 
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
             display: flex;
             justify-content:flex-end;
             align-items:flex-start;
             flex-direction: column;
-<<<<<<< HEAD
 
             width: 15%;
             aspect-ratio: 3 / 2;
@@ -61,19 +36,6 @@
 
             img {
                 margin-bottom: 0.3125em;
-=======
-            width: 15%;
-            //height: 200px;
-            aspect-ratio: 3 / 2;
-            padding: 1.5625em;
-            background-color: rgb(84, 121, 121);
-             @extend %border;
-            // border: 1px solid salmon;
-            border-radius: 8px;
-
-            img {
-                margin-bottom: 5px;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
             }
 
             @media (max-width: 1000px) {
@@ -81,15 +43,9 @@
             }
 
             @media (max-width: 601px) {
-<<<<<<< HEAD
                 justify-content: center;
                 align-items: center;
 
-=======
-                // @include flex($j-content:center, $a-items:center); 
-                justify-content: center;
-                align-items: center;
->>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
                 width: 40%;
                 font-size: .75rem;
             }

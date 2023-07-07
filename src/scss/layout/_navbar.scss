@@ -1,19 +1,73 @@
 nav {
     ul {
+<<<<<<< HEAD
         @include flex($j-content: space-around, $gap:null);
         margin: 1.5625em 0;
          
         @media (max-width: 791px) {
             // margin-left: 0;
             gap: 1.5625em;
+=======
+    @include flex($j-content: space-around, $gap:null);
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    margin: 1.5625em 0;
+
+    @media (max-width: 791px) {
+        margin-left: 0;
+        gap: 1.5625em;
+    }
+
+    
+    @media (max-width: 500px) {
+        margin-bottom: 1.5625em;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    div {
+        @include flex($j-content:null, $gap:0.625em);
+        // display: flex;
+        // align-items: center;
+        // flex-wrap: wrap;
+        // gap: 0.625em;
+        // border: 1px solid salmon;
+         @extend %border;
+        
+        @media (max-width: 636px) {
+           gap: 1.5625em;
         }
 
+        @media (max-width: 576px) {
+           justify-content: center;
+        }
+        
+        @media (max-width: 500px) {
+            margin-bottom: 1.5625em;
+            flex-direction: column;
+            // gap: 1.5625em;
+>>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
+        }
+
+<<<<<<< HEAD
 
         @media (max-width: 500px) {
             margin-bottom: 1.5625em;
             flex-direction: column;
             align-items: center;
         }
+=======
+    .div--li__dos > *:not(:first-child) {
+        margin-left: 1.25em;
+
+        @media (max-width: 636px) {
+            margin-left: 0;
+        }
+        
+    }
+>>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f
 
 
         div {
@@ -44,6 +98,7 @@ nav {
 }
 
 
+<<<<<<< HEAD
 
 a {
     transition: all 0.3s ease-in-out;
@@ -60,3 +115,16 @@ a {
 .font--weight:hover:last-child {
     color: #8e2de2;
 }
+=======
+li {
+    border: 1px solid salmon;
+    // display: inline-block;
+    }
+}
+
+/*
+
+ESTE ES UN COMENTARIO DE PRUEBA
+
+*/
+>>>>>>> bb8dbf1eeb1563d6be4630db6f2df9c9e3703a2f

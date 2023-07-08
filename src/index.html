@@ -7,11 +7,17 @@
     <!-- Google Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
+      <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/de5f578256.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Assets/img/flame.png">
+
     <!-- Hoja de estilos SCSS -->
     <link rel="stylesheet" href="scss/main.scss">
 
-     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="Assets/img/flame.png">
+     <!-- Form -->
+    <script defer src="js/app.js"></script>
 
     <title>Alura-Spring02-Portfolio</title>
 </head>
@@ -244,7 +250,7 @@
         
         <div class="experiencia__text">
 
-            <h3>Encriptador de Texto</h3>
+            <h3>Layouts con Animaciones</h3>
             <p>Todas los Diseños Responsive</p>
     
             <a href="https://github.com/Zombie5467/Animated-Landing-Alex-CG" target="_blank" rel="noopener">
@@ -258,19 +264,55 @@
         </div>
     </section>
 
+    <!-- Formulario -->
+    <section id="formulario">
+
+    <div class="letter">
+        <img src="Assets/img/sobremsj.png" alt="" width="350px" height="auto">
+    </div>
+
+
+    <form id="form" action="/">
+
+        <h1>Contact Form</h1>
+
+        <div class="input__control">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Tu Nombre">
+            <div class="error"></div>
+        </div>
+        
+        <div class="input__control">
+            <label for="email">Correo Electrónico</label>
+            <input type="text" id="email" placeholder="your@email.com">
+            <div class="error"></div>
+        </div>
+        
+        <div class="input__control">
+            <label for="message">Mensaje</label>
+            <textarea name="textarea" id="cuadro" placeholder="Escribe tu mensaje aqui" cols="30" rows="10"></textarea>
+            <div class="error"></div>
+        </div>
+
+         <button type="submit">Enviar</button> 
+        <!-- onclick="sendEmail()"-->
+
+    </form>
+    </section>
+
+    <!-- Footer -->
+    <section id="rodapie" class="rodapie">
+        <p>Desarrollado por Addel de los Santos Vasquez</p>
+        <p>2023</p>
+    </section>
 
 
 
 
 
+    
 
-
-
-     <!-- Form -->
-    <script src="js/app.js"></script>
-
-     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/de5f578256.js" crossorigin="anonymous"></script>
+   
 
 </body>
 </html>

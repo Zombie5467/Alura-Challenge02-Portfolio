@@ -1,5 +1,113 @@
-// .form {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-// }
+#formulario {
+    @include flex($j-content: center);
+    margin-bottom: 45px;
+    
+    // #form, .letter  {
+    //     @extend %border;
+    // }
+}
+
+
+#form {
+    @include flex($a-items:flex-start, $gap:15px); 
+    flex-direction: column;
+
+    background-color: rgb(43, 42, 42);
+
+    // width: 38%;
+    padding: 50px;
+    margin: 8px;
+    border-radius: 8px;
+
+    h1 {
+        font-size: 35px;
+        // padding-bottom: 15px;
+    }
+
+    .input__control label{
+        display: block;
+    }
+
+    input, textarea {
+        background-color: rgb(32, 32, 31);
+        color: aliceblue;   
+        font-weight: 500;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-style: solid;
+        border-radius: 5px;
+        // width: 100%;
+    }
+}
+
+input, textarea::placeholder {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+// -------------------------------------------------------------------------------------------
+// Validación con archivo app.js
+
+.input__control input:focus {
+    outline: 0;
+}
+
+.input__control.success input {
+    border-color: #09c372;
+}
+
+.input__control.error input {
+    border-color: #ff3860;
+}
+
+.input__control.success textarea {
+    border-color: #09c372;
+}
+
+.input__control.error textarea {
+    border-color: #ff3860;
+}
+
+.input__control .error {
+    border-color: #ff3860;
+    font-size: 12px;
+    // height: 13px;
+    }
+
+.error {
+  color: #ff3860;
+//   font-size: 25px;
+}
+
+.success {
+  color: #09c372;
+//   font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

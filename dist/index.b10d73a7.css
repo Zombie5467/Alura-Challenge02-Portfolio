@@ -1,4 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap";
+.demo {
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+}
+
+.skills__card--elements, .formacion__card img, .background {
+  -webkit-backdrop-filter: blur(10px);
+  background-color: #20201f;
+  border: 2px solid #777;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #9f9da04d;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,24 +44,22 @@ html {
   justify-content: center;
   align-items: center;
   gap: 1.5625em;
-  margin-bottom: 45px;
+  margin-bottom: 2.8125em;
   display: flex;
+}
+
+.background {
+  width: 32.5rem;
+  height: 41.25rem;
 }
 
 #form {
-  background-color: #2b2a2a;
-  border-radius: 8px;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 15px;
-  margin: 8px;
-  padding: 50px;
-  display: flex;
+  padding: 2.5em;
 }
 
 #form h1 {
-  font-size: 35px;
+  padding-bottom: 1em;
+  font-size: 2.1875rem;
 }
 
 #form .input__control label {
@@ -59,15 +71,16 @@ html {
   background-color: #20201f;
   border-style: solid;
   border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 10px;
+  width: 100%;
+  margin-top: .3125em;
+  margin-bottom: .3125em;
+  padding: .625em;
   font-weight: 500;
 }
 
 input, textarea::placeholder {
   font-family: Roboto, sans-serif;
-  font-size: 15px;
+  font-size: .9375rem;
 }
 
 .input__control input:focus {
@@ -92,6 +105,7 @@ input, textarea::placeholder {
 
 .input__control .error {
   border-color: #ff3860;
+  height: 13px;
   font-size: 12px;
 }
 
@@ -149,28 +163,25 @@ button {
   cursor: pointer;
   background-color: #f0f8ff;
   border-style: none;
-  border-radius: 8px;
+  border-radius: .5em;
   height: auto;
-  margin: 5px;
-  padding: 15px 25px;
+  margin: .3125em;
+  padding: .8em 1.25em;
   font-size: 1.5625rem;
   font-weight: 700;
   transition: all .3s ease-in-out;
 }
 
 .demo {
-  background: #8e2de2;
-  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
   color: #f0f8ff;
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
 }
 
 .fa-brands {
-  margin-right: .9375em;
+  margin-right: .4em;
 }
 
 button:hover {
-  box-shadow: 0 2px 10px #9f9da04d;
+  box-shadow: 0 0 20px #9f9da04d;
 }
 
 button:active {
@@ -184,16 +195,16 @@ button:active {
 }
 
 .rodapie {
-  color: #555454;
+  color: #777;
   text-align: center;
   background-color: #20201f;
   padding: 60px;
 }
 
 .formacion {
-  background: #4776e6;
-  background: -webkit-linear-gradient(to right, #5925ae, #4776e6);
-  background: linear-gradient(to right, #5925ae, #4776e6);
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
   flex-direction: column;
   justify-content: center;
   height: 60vh;
@@ -229,9 +240,6 @@ button:active {
 }
 
 .formacion__card img {
-  background-color: #20201f;
-  border: 3px solid #f0f8ff;
-  border-radius: 12px;
   margin-bottom: .9375em;
   padding-bottom: .625em;
 }
@@ -426,8 +434,6 @@ li:hover a {
 
 .skills__card--elements {
   aspect-ratio: 3 / 2;
-  background-color: #20201f;
-  border-radius: 8px;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
@@ -456,9 +462,9 @@ li:hover a {
 }
 
 .sobreMi {
-  background: #4776e6;
-  background: -webkit-linear-gradient(to right, #5925ae, #4776e6);
-  background: linear-gradient(to right, #5925ae, #4776e6);
+  background: #8e2de2;
+  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
   flex-direction: column;
   justify-content: center;
   height: 60vh;
@@ -485,6 +491,10 @@ li:hover a {
     width: 100%;
     font-size: 1.25rem;
   }
+}
+
+.sobreMi p:last-child {
+  font-weight: 100;
 }
 
 body {

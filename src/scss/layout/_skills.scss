@@ -18,8 +18,11 @@
         }
             
         &--elements {
+            @extend %glass;
+
             // @include flex($j-content:flex-end, $a-items:flex-start, $wrap:wrap, $gap:null); 
-            // Este include no quiso funcionar, nunca entendí por que.
+            // Este include no quiso funcionar, nunca entendí porque.
+
             display: flex;
             justify-content:flex-end;
             align-items:flex-start;
@@ -28,11 +31,7 @@
             width: 15%;
             aspect-ratio: 3 / 2;
             
-            border-radius: 12px;
-            background-color: rgb(32, 32, 31);
-        
             padding: 1.5625em;
-            border-radius: 8px;
 
             img {
                 margin-bottom: 0.3125em;

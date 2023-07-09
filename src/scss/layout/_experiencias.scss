@@ -32,33 +32,36 @@
 
 button {
   height: auto;
-  background-color:aliceblue;
+
+  background-color:$white-clr;
   color: black;
+
   font-size: 1.5625rem;
   font-weight: $w-bold;
-  padding: 15px 25px;
-  margin: 5px;
-  border-style: none;
-  border-radius: 8px;
   text-align: center;
+
+  padding: 0.800em 1.25em;
+  margin: 0.3125em;
+
+  border-style: none;
+  border-radius: 0.5em;
+
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .demo {
-  background: #8E2DE2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  @extend %body-bg-purple;
 
-  color: aliceblue;
+  color: $white-clr;
 }
 
 .fa-brands {
-  margin-right: 0.9375em
+  margin-right: 0.400em
 }
 
 button:hover {
-    box-shadow: 0px 2px 10px rgba(159, 157, 160, 0.3);
+    box-shadow: $shadow;
 }
 
 button:active {

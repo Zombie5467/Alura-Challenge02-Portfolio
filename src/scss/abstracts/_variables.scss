@@ -1,11 +1,33 @@
-// Color body
+// ----------------------------------------------------------------------------------
+
+// Colores
+
+// Color del cuerpo del elemento
 $body-bg:rgb(32, 32, 31);
 
-//Fonts
+// Color del Borde
+$border-bg:rgba(255, 255, 255, 0.1);
+
+// Color Blanco
+$white-clr: aliceblue;
+$gray-clr: rgb(119, 119, 119);
+
+// Box Shadow
+$shadow: 0px 0px 20px rgba(159, 157, 160, 0.3);
+
+// Success
+$success-clr: rgb(9, 195, 114);
+
+// Error
+$error-clr: rgb(255, 56, 96);
+
+// ----------------------------------------------------------------------------------
+
+// Fuentes tipográficas
+
+//Font Weight
 $w-thin: 100;
 $w-medium: 500;
 $w-bold: 700;
 
-/*
-    w = weight
-*/
+// ----------------------------------------------------------------------------------

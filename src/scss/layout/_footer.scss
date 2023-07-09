@@ -1,7 +1,7 @@
 .rodapie {
     // @extend %border;
-    background-color: rgb(32, 32, 31);
-    color: rgb(85, 84, 84);
+    background-color: $body-bg;
+    color: $gray-clr;
 
     padding: 60px;
 

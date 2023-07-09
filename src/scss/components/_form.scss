@@ -1,113 +1,93 @@
 #formulario {
-    @include flex($j-content: center);
-    margin-bottom: 45px;
-    
-    // #form, .letter  {
-    //     @extend %border;
-    // }
+  @include flex($j-content: center);
+  margin-bottom: 2.8125em;
 }
 
+.background {
+  width: 32.5rem;
+  height: 41.25rem;
+
+  @extend %glass;
+
+  // background-color: $body-bg;
+  // box-shadow: $shadow;
+
+  // border: 2px solid $gray-clr;
+  // border-radius: 10px;
+
+  // backdrop-filter: blur(10px);
+  // -webkit-backdrop-filter: blur(10px);
+}
 
 #form {
-    @include flex($a-items:flex-start, $gap:15px); 
-    flex-direction: column;
+  padding: 2.5em;
 
-    background-color: rgb(43, 42, 42);
+  h1 {
+    font-size: 2.1875rem;
+    padding-bottom: 1em;
+  }
 
-    // width: 38%;
-    padding: 50px;
-    margin: 8px;
-    border-radius: 8px;
+  .input__control label {
+    display: block;
+  }
 
-    h1 {
-        font-size: 35px;
-        // padding-bottom: 15px;
-    }
+  input,
+  textarea {
+    width: 100%;
 
-    .input__control label{
-        display: block;
-    }
+    background-color: $body-bg;
+    color: $white-clr;
+    font-weight: $w-medium;
 
-    input, textarea {
-        background-color: rgb(32, 32, 31);
-        color: aliceblue;   
-        font-weight: 500;
-        padding: 10px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        border-style: solid;
-        border-radius: 5px;
-        // width: 100%;
-    }
+    padding: 0.625em;
+    margin-top: 0.3125em;
+    margin-bottom: 0.3125em;
+
+    border-style: solid;
+    border-radius: 5px;
+  }
 }
 
-input, textarea::placeholder {
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
+input,
+textarea::placeholder {
+  font-size: 0.9375rem;
+  font-family: 'Roboto', sans-serif;
 }
-
-
-
-
 
 // -------------------------------------------------------------------------------------------
+
 // Validación con archivo app.js
 
 .input__control input:focus {
-    outline: 0;
+  outline: 0;
 }
 
 .input__control.success input {
-    border-color: #09c372;
+  border-color: $success-clr;
 }
 
 .input__control.error input {
-    border-color: #ff3860;
+  border-color: $error-clr;
 }
 
 .input__control.success textarea {
-    border-color: #09c372;
+  border-color: $success-clr;
 }
 
 .input__control.error textarea {
-    border-color: #ff3860;
+  border-color: $error-clr;
 }
 
 .input__control .error {
-    border-color: #ff3860;
-    font-size: 12px;
-    // height: 13px;
-    }
+  border-color: $error-clr;
+  font-size: 12px;
+  height: 13px;
+}
 
 .error {
-  color: #ff3860;
-//   font-size: 25px;
+  color: $error-clr;
 }
 
 .success {
-  color: #09c372;
-//   font-size: 15px;
+  color: $success-clr;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

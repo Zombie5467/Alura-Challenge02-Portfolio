@@ -201,6 +201,10 @@ button:active {
   padding: 60px;
 }
 
+p {
+  margin: 8px;
+}
+
 .formacion {
   background: #8e2de2;
   background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);

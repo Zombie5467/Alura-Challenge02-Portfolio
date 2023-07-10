@@ -43,6 +43,11 @@ nav {
     }
 }
 
+li a {
+    @media (max-width: 350px) {
+        font-size: 15;
+    }
+}
 
 
 a {
@@ -50,13 +55,13 @@ a {
 }
 
 .div--li__dos li a:hover{
-    color: #6510af;
+    color: $h-oscuro;
 }
 
 .div--li__dos li a:hover:last-child{
-    color: #8e2de2;
+    color: $h-claro;
 }
 
 .font--weight:hover:last-child {
-    color: #8e2de2;
+    color: $h-claro;
 }

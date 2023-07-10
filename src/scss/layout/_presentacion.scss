@@ -1,10 +1,14 @@
 .presentacion {
-    @include flex($j-content: space-around);
-    padding: 50 50 0 50;
+    @include flex();
+    padding: 30 30 0 30;
 
     @media (max-width: 750px) {
         text-align: center;
         // justify-content: space-between;
+    }
+
+   @media (min-width: 751px) and (max-width: 809px) {
+        padding: 0;
     }
 
     .presentacion__text {
@@ -15,7 +19,7 @@
 
         h1 {
             font-size: 4.0625rem;
-            margin-bottom: 1.25em;
+            margin-bottom: .6em;
 
             @media (max-width: 1227px) {
                 font-size: 2.1875rem;
@@ -23,7 +27,7 @@
         }
 
         p {
-            font-size: 1.875rem;
+            font-size: 1.500rem;
             font-weight: $w-thin;
             margin-bottom: 1.25em;  
 
@@ -57,7 +61,7 @@
 
         @media (max-width: 450px) {
             flex-wrap: wrap;
-        }      
+        }
     }
 }
 

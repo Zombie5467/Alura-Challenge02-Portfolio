@@ -1,4 +1,9 @@
-console.log("aqu\xed");
+// console.log('aquí')
+//--------------------------------------------------------------
+// AOS
+AOS.init();
+//--------------------------------------------------------------
+// Formulario
 const form = document.getElementById("form");
 const nombre = document.getElementById("nombre");
 const email = document.getElementById("email");
@@ -30,8 +35,10 @@ const validateInputs = ()=>{
     const emailValue = email.value.trim();
     const cuadroValue = cuadro.value.trim();
     if (nombreValue === "") setError(nombre, "Debes escribir tu nombre");
+    else if (nombreValue.length > 50) setError(nombre, "M\xe1ximo 50 caracteres");
     else setSuccess(nombre);
     if (cuadroValue.length === 0) setError(cuadro, "Debe llenar este espacio");
+    else if (cuadroValue.length > 600) setError(cuadro, "M\xe1ximo 600 caracteres");
     else setSuccess(cuadro);
     if (emailValue === "") setError(email, "Debe de escribir una direcci\xf3n de correo");
     else if (!isValidEmail(emailValue)) setError(email, "Por favor escriba una direcci\xf3n de correo valida");

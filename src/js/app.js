@@ -1,5 +1,9 @@
-console.log('aquí')
-
+// console.log('aquí')
+//--------------------------------------------------------------
+// AOS
+AOS.init();
+//--------------------------------------------------------------
+// Formulario
 const form = document.getElementById('form');
 const nombre = document.getElementById('nombre');
 const email = document.getElementById('email');
@@ -41,17 +45,20 @@ const validateInputs = () => {
 
     
 
-    if(nombreValue === '') {
-        setError(nombre, 'Debes escribir tu nombre'); 
+    if (nombreValue === '') {
+      setError(nombre, 'Debes escribir tu nombre');
+    } else if (nombreValue.length > 50) {
+      setError(nombre, 'Máximo 50 caracteres');
     } else {
-        setSuccess(nombre);    
+      setSuccess(nombre);
     }
 
-    if(cuadroValue.length === 0) {
+    if (cuadroValue.length === 0) {
         setError(cuadro, 'Debe llenar este espacio');
-
+    } else if (cuadroValue.length > 600) {
+        setError(cuadro, 'Máximo 600 caracteres');
     } else {
-        setSuccess(cuadro);    
+      setSuccess(cuadro);
     }
 
     if(emailValue === '') {
@@ -62,3 +69,4 @@ const validateInputs = () => {
         setSuccess(email);
     }
 }
+

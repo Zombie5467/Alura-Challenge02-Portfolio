@@ -575,6 +575,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 
 },{}],"4M6V8":[function(require,module,exports) {
 
-},{}]},["l2tSJ","4M6V8"], "4M6V8", "parcelRequire94c2")
+},{}]},["l2tSJ","4M6V8"], "4M6V8", "parcelRequire4404")
 
 //# sourceMappingURL=Alura-Spring02-Portfolio.59712999.js.map

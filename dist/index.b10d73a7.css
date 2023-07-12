@@ -74,6 +74,7 @@ html {
 
 #form input, #form textarea {
   color: #f0f8ff;
+  resize: none;
   background-color: #20201f;
   border-style: solid;
   border-radius: 5px;
